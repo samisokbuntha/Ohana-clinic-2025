@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home page</title>  
-</head>
-<body>
-    <h1>hello</h1>
-</body>
-</html>
+<?php get_headers(); ?>
+<div class="front-page-content">
+    <h1>Welcome to Our Clinic</h1>
+    <p>Your health is our priority. We offer a range of medical services to cater to your needs.</p>
+</div>
+<?php get_footers(); ?>        

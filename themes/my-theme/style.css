@@ -4,3 +4,33 @@
  Description: Starter custom e-commerce theme without WooCommerce.
  Version: 1.0
 */
+header{
+ background-color: rgb(153, 132, 92);
+ display: flex;
+ justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+ul{
+    display: flex;
+}
+li{
+    padding: 10px;
+    margin-top: 20px;
+}
+header ul,
+nav ul,
+.menu ul,
+#menu-main-menu,
+#primary-menu {
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li,
+nav ul li {
+    list-style-type: none !important;
+}
