@@ -1,11 +1,9 @@
-<?php get_header(); ?>
-<h1>All Products</h1>
-<div class="products">
-<?php while(have_posts()): the_post(); $price=get_post_meta(get_the_ID(),'_price',true); ?>
-<div class="product">
-<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
-<h2><?php the_title(); ?></h2>
-<p>Price: <?php echo $price; ?></p>
-</div>
-<?php endwhile; ?>
-</div>
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head><?php wp_head(); ?></head>
+<body <?php body_class(); ?>>
+<header>
+<h1><?php bloginfo('name'); ?></h1>
+<?php wp_nav_menu(['theme_location'=>'primary']); ?>
+</header>
+<main>
