@@ -1,43 +1,65 @@
 </main>
-<footer class="clinic-footer">
+<footer>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<footer class="pro-clinic-footer">
     <div class="footer-container">
-        <div class="footer-column">
-            <img src="YOUR-LOGO-URL.png" alt="Clinic Logo" class="footer-logo">
-            <p>Providing world-class healthcare with a personal touch. Dedicated to your family's wellness since 2010.</p>
-            <div class="social-icons">
-                <a href="#">FB</a> <a href="#">IG</a> <a href="#">LI</a>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4 class="footer-title">City Care Clinic</h4>
+                <p>We provide comprehensive healthcare with a focus on patient comfort and advanced technology.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                </div>
             </div>
-        </div>
 
-        <div class="footer-column">
-            <h3>Medical Services</h3>
-            <ul>
-                <li><a href="#">General Practice</a></li>
-                <li><a href="#">Pediatrics</a></li>
-                <li><a href="#">Cardiology</a></li>
-                <li><a href="#">Laboratory Tests</a></li>
-            </ul>
-        </div>
+            <div class="footer-col">
+                <h4 class="footer-title">Our Services</h4>
+                <ul class="vertical-list">
+                    <li><a href="#">Primary Care</a></li>
+                    <li><a href="#">Pediatric Care</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">doctor</a></li>
+                </ul>
+            </div>
 
-        <div class="footer-column">
-            <h3>Visit Us</h3>
-            <p>123 Health Ave, Medical District<br>New York, NY 10001</p>
-            <p><strong>P:</strong> (555) 012-3456</p>
-            <p><strong>E:</strong> contact@yourclinic.com</p>
-        </div>
+            <div class="footer-col">
+                <h4 class="footer-title">Contact Us</h4>
+                <div class="contact-box">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>123 Health Blvd, NY 10001</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>(555) 123-4567</span>
+                    </div>
+                </div>
+            </div>
 
-        <div class="footer-column">
-            <h3>Clinic Hours</h3>
-            <p>Mon - Fri: 8 AM - 6 PM</p>
-            <p>Sat: 9 AM - 2 PM</p>
-            <a href="/booking" class="footer-btn">Book Appointment</a>
+            <div class="footer-col">
+                <h4 class="footer-title">Working Hours</h4>
+                <p><i class="far fa-clock"></i> Mon-Fri: 08:00 - 18:00</p>
+                <p><i class="far fa-clock"></i> Sat: 09:00 - 14:00</p>
+                <a href="#" class="bt-appointment">Book Appointment</a>
+            </div>
         </div>
     </div>
 
     <div class="footer-bottom">
-        <p>&copy; 2025 City Care Clinic. | <a href="#">Privacy Policy</a> | <a href="#">HIPAA Compliance</a></p>
-        <p class="emergency-note">In case of emergency, please dial 911 immediately.</p>
+        <div class="bottom-content">
+            <p>&copy; 2025 City Care Clinic.</p>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms</a>
+            </div>
+        </div>
     </div>
 </footer>
+</footer>   
 <?php wp_footer(); ?>
 </body></html>

@@ -7,9 +7,8 @@ get_header();
 <br>
 <br>
 <div class="about-content">
-    <h1>About Us</h1>
-    <p>ok</p>
+    <h1>service</h1>
+    <p>ok bro nha</p>
 </div>
 <?php
 get_footer();
-?>
