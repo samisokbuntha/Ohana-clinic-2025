@@ -5,9 +5,9 @@
  Version: 1.0
 */
 header{
- background-color: rgb(153, 132, 92);
+ background-color: #20C997;
  display: flex;
- justify-content: space-between;
+    justify-content: space-between;
 }
 
 a {
@@ -17,8 +17,8 @@ ul{
     display: flex;
 }
 li{
-    padding: 10px;
-    margin-top: 20px;
+    padding: 20px;
+    margin-top: 10px;
 }
 header ul,
 nav ul,
@@ -34,3 +34,120 @@ header ul li,
 nav ul li {
     list-style-type: none !important;
 }
+
+
+.hero-section {
+    width: 100%;
+    height: 500px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-position {
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    margin: 0;
+    padding: 0;
+}
+.hero-position img {
+    width: 400px;
+    height: 400px;
+}
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    top: 0;
+    left: 0;
+}
+.text-hero h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.text-hero p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.text-hero {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    color: white;
+}
+
+
+.btn-group {
+  position: absolute;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  left: 130px;
+  bottom: 160px;
+}
+
+.btn-appointment {
+  background-color: #20C997;
+  color: #ffffff;
+  padding: 14px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-appointment:hover {
+  background-color: #af731e;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 14px 30px;
+  border: 1px solid  #20C997;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: #20C997;
+  color: #ffffff;
+}
+.text-button {
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    text-align: center;
+    color: #20C997;
+}
+.text-buttonn {
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+    text-align: center;
+    color: #20C997;
+}
+.text-buttonnn {
+    position: absolute;
+    bottom: 20px;
+    left: 500px;
+    text-align: center;
+    color: #20C997;
+}
+
+
+
+
+
