@@ -100,43 +100,64 @@
                 <img src="https://img.icons8.com/ios/100/2196F3/joint.png" alt="Joints">
             </div>
         </div>
-        <br><div class="dept-card">
-            <div class="dept-icon-box">
-                <i class="fas fa-kidneys"></i> <img src="https://img.icons8.com/ios/100/2196F3/kidneys.png" alt="Kidneys">
-            </div>
-        </div>
-
-        <div class="dept-card">
-            <div class="dept-icon-box">
-                <img src="https://img.icons8.com/ios/100/2196F3/hearts.png" alt="Heart">
-            </div>
-        </div>
-
-        <div class="dept-card">
-            <div class="dept-icon-box">
-                <img src="https://img.icons8.com/ios/100/2196F3/lungs.png" alt="Lungs">
-            </div>
-        </div>
-
-        <div class="dept-card">
-            <div class="dept-icon-box">
-                <img src="https://img.icons8.com/ios/100/2196F3/tooth.png" alt="Tooth">
-            </div>
-        </div>
-
-        <div class="dept-card">
-            <div class="dept-icon-box">
-                <img src="https://img.icons8.com/ios/100/2196F3/brain.png" alt="Brain">
-            </div>
-        </div>
-
-        <div class="dept-card">
-            <div class="dept-icon-box">
-                <img src="https://img.icons8.com/ios/100/2196F3/joint.png" alt="Joints">
-            </div>
-        </div>
 
     </div>
 </section>
 
+<section class="dept-category-section">
+    <div class="dept-header">
+        <h2>Our Doctors</h2>
+        <p>you want something that's warm, professional, and action-oriented, highlighting their expertise and care</p>
+        <div class="may">
+            <div class="miannn">      
+                <div class="doctor-card">
+                    <img src="<?php echo get_template_directory_uri(); ?>/image/doctor-nha.jpg" alt="Doctor">       
+                </div>
+                <div class="text-doctor">
+                    <h3>Mr, nha eeror</h3>
+                   <div class="social-links"style="font-size: 25px;">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+             <div class="miannn">      
+                <div class="doctor-card">
+                    <img src="<?php echo get_template_directory_uri(); ?>/image/doctor-nha.jpg" alt="Doctor">       
+                </div>
+                <div class="text-doctor">
+                    <h3>Mr, nha eeror</h3>
+                    <div class="social-links"style="font-size: 25px;">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+             <div class="miannn">      
+                <div class="doctor-card">
+                    <img src="<?php echo get_template_directory_uri(); ?>/image/doctor-nha.jpg" alt="Doctor">       
+                </div>
+                <div class="text-doctor">
+                    <h3>Mr, nha eeror</h3>
+                    <div class="social-links"style="font-size: 25px;">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <button class="see-more-btn"><a href="doctor">SEE MORE</a></button>
+</section>
 <?php get_footer(); ?>
